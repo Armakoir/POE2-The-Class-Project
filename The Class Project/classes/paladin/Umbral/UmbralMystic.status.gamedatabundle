@@ -1,0 +1,320 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Shrouded_Blade_of_the_Mystic_Knights_SE_SummonPrimary",
+      "ID": "0919e7b4-903a-11e8-9eb6-529269fb1459",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "SummonWeaponPrimarySlot",
+          "OverrideDescriptionString": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 0,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "UseDurationTime",
+          "Duration": 30,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "false",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "true",
+          "ClearOnRest": "false",
+          "ClearOnFoodRest": "false",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "false",
+          "HideFromUI": "false",
+          "VisualEffects": [],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "None",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "abace6d0-9039-11e8-9eb6-529269fb1459",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.ChangeFormEffectGameData, Assembly-CSharp",
+      "DebugName": "Form_of_the_Umbral_Warrior_SE_ChangeForm_Armor",
+      "ID": "dee7688a-9044-11e8-9eb6-529269fb1459",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "ChangeForm",
+          "OverrideDescriptionString": -1,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 0,
+          "DynamicValue": {
+            "Stat": "None",
+            "SkillDataID": "00000000-0000-0000-0000-000000000000",
+            "ClassID": "00000000-0000-0000-0000-000000000000",
+            "MultiplyBy": 1,
+            "Operator": "Add"
+          },
+          "KeywordsIDs": [],
+          "DurationType": "UseDurationTime",
+          "Duration": 40,
+          "MaxStackQuantity": 0,
+          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+          "ApplicationType": "ApplyOnStart",
+          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "StackedChildrenApplyEffects": "false",
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "TriggerAdjustment": {
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
+            "ValidateWithAttackFilter": "false",
+            "ParamValue": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0,
+            "ResetTriggerOnEffectTimeout": "false",
+            "MaxTriggerCount": 0,
+            "IgnoreMaxTriggerCount": "false",
+            "RemoveEffectAtMax": "false",
+            "ChanceToTrigger": 1
+          },
+          "PowerLevelScaling": {
+            "UseCharacterLevel": "false",
+            "BaseLevel": 0,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ValueAdjustment": 0,
+            "DurationAdjustment": 0
+          },
+          "IsHostile": "false",
+          "ClearOnCombatEnd": "true",
+          "ClearOnRest": "true",
+          "ClearOnFoodRest": "true",
+          "ClearWhenAttacks": "false",
+          "ClearOnDeath": "false",
+          "HideFromCombatTooltip": "false",
+          "HideFromCombatLog": "false",
+          "HideFromUI": "false",
+          "VisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_cloak_of_death_chest.prefab",
+              "AttachPoint": "Chest",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_cloak_of_death_se.prefab",
+              "AttachPoint": "ElbowRight",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_cloak_of_death_se.prefab",
+              "AttachPoint": "ElbowLeft",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_cloak_of_death_se.prefab",
+              "AttachPoint": "RightWeapon",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_cloak_of_death_se.prefab",
+              "AttachPoint": "LeftWeapon",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_cloak_of_death_se.prefab",
+              "AttachPoint": "RightFoot",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_cloak_of_death_se.prefab",
+              "AttachPoint": "LeftFoot",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_cloak_of_death_se.prefab",
+              "AttachPoint": "Head",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            },
+            {
+              "VisualEffect": "prefabs/effects/afflictions/fx_affliction_blinded.prefab",
+              "AttachPoint": "Head",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnStart"
+            }                    
+          ],
+          "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "None",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default"
+          },
+          "AttackTargetFilter": {
+            "KeywordsIDs": [],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Distance": 0,
+            "DistanceOperator": "EqualTo",
+            "HasDOT": "false",
+            "IsMarked": "false",
+            "TargetHostility": "Default"
+          },
+          "ExtraValue": 0,
+          "OverridePenetration": 0,
+          "DamageTypeValue": "All",
+          "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+          "RaceValue": "None",
+          "StatusEffectTypeValue": "None",
+          "ItemValueID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackOverrideValue": "None",
+          "EventValue": "OnApply",
+          "ClassValueID": "00000000-0000-0000-0000-000000000000",
+          "WeaponTypeValue": "None",
+          "AttackHitType": "None",
+          "SkillValueID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "BedRestDaysMinimum": 0,
+          "BedRestDaysMaximum": 0
+        },
+        {
+          "$type": "Game.GameData.ChangeFormEffectComponent, Assembly-CSharp",
+          "NewFormAppearance": "",
+          "TempAbilitiesIDs": [],
+          "RemoveEquipment": "false",
+          "TempEquipmentIDs": [
+            "7d3e8f74-8f58-11e8-9eb6-529269fb1459",
+            "38ebd10c-9024-11e8-9eb6-529269fb1459",
+            "60f7a452-8a18-443d-923b-ed5c0ee7d2d8"
+          ],
+          "FormVariationID": "00000000-0000-0000-0000-000000000000",
+          "AnimationController": "",
+          "AnimationAudioID": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {
