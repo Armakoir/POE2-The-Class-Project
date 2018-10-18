@@ -1,0 +1,514 @@
+﻿{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.KeywordGameData, Assembly-CSharp",
+			"DebugName": "WarriorStances_Keyword",
+			"ID": "b83e2c68-e54f-4957-abee-36f305204449",
+			"Components": [{
+					"$type": "Game.GameData.KeywordComponent, Assembly-CSharp",
+					"AbilitiesDisplayString": -1,
+					"Description": -1,
+					"GuiDisplayString": -1,
+					"Icon": "",
+					"OverridePluralEffect": -1,
+					"TintableIcon": ""
+				}
+			]
+		},  {
+            "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "SE_WarriorStances_KeywordTag",
+			"ID": "1913c1d8-d43d-4821-9093-26edc4a1f8db",
+			"Components": [{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationType": "ApplyOnStart",
+					"AttackFilter": {
+						"AttackHostility": "Default",
+						"ChanceToApply": 1,
+						"ClassTypeID": "00000000-0000-0000-0000-000000000000",
+						"DefendedBy": "None",
+						"Disengagement": "false",
+						"Empowered": "false",
+						"KeywordLogic": "Or",
+						"KeywordsIDs": [],
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"Range": "None",
+						"Source": "None",
+						"Stealthed": "false",
+						"TargetType": "None",
+						"UseStealthLinger": "false"
+					},
+					"AttackHitType": "None",
+					"AttackOverrideValue": "None",
+					"AttackTargetFilter": {
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"HealthOperator": "EqualTo",
+						"HealthPercentage": 0,
+						"IsKith": "false",
+						"IsMarked": "false",
+						"KeywordLogic": "Or",
+						"KeywordsIDs": [],
+						"Race": "None",
+						"TargetHostility": "Default"
+					},
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BaseValue": 0,
+					"BedRestDaysMaximum": 0,
+					"BedRestDaysMinimum": 0,
+					"ClassValueID": "00000000-0000-0000-0000-000000000000",
+					"ClearOnCombatEnd": "false",
+					"ClearOnDeath": "false",
+					"ClearOnFoodRest": "false",
+					"ClearOnRest": "false",
+					"ClearWhenAttacks": "false",
+					"DamageTypeValue": "All",
+					"Duration": 0,
+					"DurationType": "Infinite",
+					"DynamicValue": {
+						"ClassID": "00000000-0000-0000-0000-000000000000",
+						"MultiplyBy": 1,
+						"Operator": "Add",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"Stat": "None"
+					},
+					"EventValue": "None",
+					"ExtraValue": 0,
+					"HideFromCombatLog": "false",
+					"HideFromCombatTooltip": "false",
+					"HideFromUI": "false",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"IsHostile": "false",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+					"KeywordsIDs": ["b83e2c68-e54f-4957-abee-36f305204449"],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"MaxStackQuantity": 0,
+					"OverrideDescriptionString": -1,
+					"OverridePenetration": 0,
+					"PowerLevelScaling": {
+						"BaseLevel": 0,
+						"DurationAdjustment": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"UseCharacterLevel": "false",
+						"ValueAdjustment": 0
+					},
+					"RaceValue": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"StatusEffectType": "None",
+					"StatusEffectTypeValue": "None",
+					"StatusEffectsValueIDs": [],
+					"TriggerAdjustment": {
+						"ChanceToTrigger": 1,
+						"DurationAdjustment": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"MaxTriggerCount": 1,
+						"ParamValue": 0,
+						"RemoveEffectAtMax": "true",
+						"ResetTriggerOnEffectTimeout": "false",
+						"TriggerOffEvent": "None",
+						"TriggerOnEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ValueAdjustment": 0
+					},
+					"UseStatusEffectValueAs": "None",
+					"VisualEffects": [],
+					"WeaponTypeValue": "None"
+				}
+			]
+		},  {
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Warrior_Stance",
+			"ID": "5c886586-df91-4eee-aa3e-5ae24dfa31e5",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AbilityClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+					"AbilityLevel": 4,
+					"Description": 409000440,
+					"DisplayName": 409000422,
+					"Icon": "gui/icons/abilities/fighter/warrior_stance.png",
+					"ModalGroupID": "745b0192-3bd1-4e78-b5bd-605a17fa2efd",
+					"StatusEffectsIDs": ["1913c1d8-d43d-4821-9093-26edc4a1f8db", "a7ac9c67-e188-4559-b72e-0279ff8f9afc", "a921a739-efea-48f0-8304-aa435a982a6f", "3eae30a0-3899-486d-b354-3ff34e9d2553"],	//Armor2, DamageMult_StanceBonus15, Deflection_StancePenalty15
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000"
+				}
+			]
+		}, 	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Champion_Stance",
+			"ID": "b4473d6b-d40a-4467-a87f-0bd8e9aa94e7",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+					"AbilityLevel": 6,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "d6f74d1d-87bc-44ef-aa6e-bf32267a0c88",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 409000440,
+					"DisplayName": 409000423,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/fighter/conquerer_stance.png",
+					"IsCombatOnly": "false",
+					"IsModal": "true",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "745b0192-3bd1-4e78-b5bd-605a17fa2efd",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["1913c1d8-d43d-4821-9093-26edc4a1f8db", "9603693b-bd6b-48cc-bcbd-c78d9b784d8f", "58b4efab-5f3a-4b22-b9df-c7a49104609e", "cbb82956-de10-407f-acd7-919d388dc556"],	//Armor4, DamageMult_StanceBonus20, Deflection_StancePenalty10
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [{
+							"AttachMode": "PositionFaceSource",
+							"AttachObject": "Caster",
+							"AttachPoint": "Chest",
+							"Event": "OnActivate",
+							"MeshType": "None",
+							"VisualEffect": "prefabs/effects/abilities/fighter/fx_defender_stance.prefab"
+						}
+					],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Conqueror_Stance",
+			"ID": "2cd4501f-6038-43fe-8853-af5d603e6608",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+					"AbilityLevel": 8,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "d6f74d1d-87bc-44ef-aa6e-bf32267a0c88",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 409000440,
+					"DisplayName": 409000424,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/fighter/conquerer_stance.png",
+					"IsCombatOnly": "false",
+					"IsModal": "true",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "745b0192-3bd1-4e78-b5bd-605a17fa2efd",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["1913c1d8-d43d-4821-9093-26edc4a1f8db", "70d9a774-83e7-4b51-bdf3-5579b66475e9", "f33cc55f-2092-4a07-bb5a-baab4bb6b12d", "2f709f2f-173e-486e-ad52-4b5bf424fb12"],	//Armor6, DamageMult_StanceBonus25, Deflection_StancePenalty5
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [{
+							"AttachMode": "PositionFaceSource",
+							"AttachObject": "Caster",
+							"AttachPoint": "Chest",
+							"Event": "OnActivate",
+							"MeshType": "None",
+							"VisualEffect": "prefabs/effects/abilities/fighter/fx_defender_stance.prefab"
+						}
+					],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Vigorous_Defense",
+			"ID": "08fdc230-975c-4f4e-8108-c39d3e58cb55",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+					"AbilityLevel": 7,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "b83e2c68-e54f-4957-abee-36f305204449"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "766c6c94-e9b3-4e7a-8415-f4ae9bde59c6",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 341,
+					"DisplayName": 340,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/fighter/vigorous_defense.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["7d04f030-ba15-4e20-889d-5e7d52aff4f9", "b458d4de-eb0b-41df-ba7d-851d659ead10"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [{ "String": 406000530 }],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Refreshing_Defense",
+			"ID": "13991ec8-c9f0-49d3-9787-b5fcf357b7af",	//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+					"AbilityLevel": 9,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"FunctionHash": 0,
+										"ParameterHash": 0,
+										"Parameters": ["011111e9-0000-0000-0000-000000000000", "b83e2c68-e54f-4957-abee-36f305204449"],
+										"UnrealCall": ""
+									},
+									"Not": false,
+									"Operator": 0
+								}
+							],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "14a565dc-9cda-4794-9b45-c872a93375b2",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 341,
+					"DisplayName": 1840,
+					"DurationOverride": 0,
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/fighter/refreshing_defense.png",
+					"IsCombatOnly": "true",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "false",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["04d6c122-82a1-41c3-85d8-92bc60b1b470", "5f1f9349-7f86-4c9e-9dcc-ccaa9f04d0f8"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [{ "String": 2640 }, { "String": 406000530 }],
+					"UpgradedFromID": "08fdc230-975c-4f4e-8108-c39d3e58cb55",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 2,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}
+    ]
+}
