@@ -1,0 +1,259 @@
+﻿{
+    "GameDataObjects": [
+        {
+			"$type": "Game.GameData.RecipeCategory, Assembly-CSharp",
+			"DebugName": "ClassProject_Repairs",
+			"ID": "c0f88443-a1d5-462e-bbe7-c01b6d63cf38",
+			"Components": [{
+					"$type": "Game.GameData.RecipeCategoryComponent, Assembly-CSharp",
+					"Category": "None",
+					"DisplayName": 40034301,
+					"SkillRequirement": {
+						"SkillID": "00000000-0000-0000-0000-000000000000",
+						"Value": 0
+					}
+				}
+			]
+		}, 	{
+			"$type": "Game.GameData.RecipeData, Assembly-CSharp",
+			"DebugName": "Recipe_Repair_DragonsDowry",
+			"ID": "9c8f6ec5-f2d1-4a44-9c54-154532fbcbe7",
+			"Components": [{
+					"$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
+					"CanModifyArmor": "false",
+					"CanModifyShields": "false",
+					"CanModifySpecificItemsIDs": [],
+					"CanModifyWeapons": "false",
+					"CategoryID": "c0f88443-a1d5-462e-bbe7-c01b6d63cf38",
+					"Cost": 0,
+					"CraftingLocation": "None",
+					"CreationConditions": {
+						"Components": [],
+						"Operator": 0
+					},
+					"DisplayName": 40034302,
+					"Ingredients": [{
+							"IsDestroyed": "true",
+							"ItemID": "1261d34f-af56-42c4-983e-bee8f11c28b5",
+							"Quantity": 1
+						}
+					],
+					"ItemModsToAddIDs": [],
+					"ItemModsToRemoveIDs": [],
+					"Output": [{
+							"ItemID": "1261d34f-af56-42c4-983e-bee8f11c28b5",
+							"Quantity": 1
+						}
+					],
+					"VisibilityConditions": {
+						"Components": [],
+						"Operator": 0
+					},
+					"PrerequisiteItemModID": "00000000-0000-0000-0000-000000000000",
+					"CostByValueMultiplier": 0,
+					"Double2HIngredientCost": "false"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.RecipeData, Assembly-CSharp",
+			"DebugName": "Recipe_Repair_RedHand",
+			"ID": "2e844366-8935-4a29-8092-7dd45d572066",
+			"Components": [{
+					"$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
+					"CanModifyArmor": "false",
+					"CanModifyShields": "false",
+					"CanModifySpecificItemsIDs": [],
+					"CanModifyWeapons": "false",
+					"CategoryID": "c0f88443-a1d5-462e-bbe7-c01b6d63cf38",
+					"Cost": 0,
+					"CraftingLocation": "None",
+					"CreationConditions": {
+						"Components": [],
+						"Operator": 0
+					},
+					"DisplayName": 40034303,
+					"Ingredients": [{
+							"IsDestroyed": "true",
+							"ItemID": "783ec95c-81bc-4dfa-a665-1a39ff3dd685",
+							"Quantity": 1
+						}
+					],
+					"ItemModsToAddIDs": [],
+					"ItemModsToRemoveIDs": [],
+					"Output": [{
+							"ItemID": "783ec95c-81bc-4dfa-a665-1a39ff3dd685",
+							"Quantity": 1
+						}
+					],
+					"VisibilityConditions": {
+						"Components": [],
+						"Operator": 0
+					},
+					"PrerequisiteItemModID": "00000000-0000-0000-0000-000000000000",
+					"CostByValueMultiplier": 0,
+					"Double2HIngredientCost": "false"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.RecipeData, Assembly-CSharp",
+			"DebugName": "Recipe_Repair_ThreeBellsThrough",
+			"ID": "c138bd03-7227-43b3-985d-04e49f342f9c",
+			"Components": [{
+					"$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
+					"CanModifyArmor": "false",
+					"CanModifyShields": "false",
+					"CanModifySpecificItemsIDs": [],
+					"CanModifyWeapons": "false",
+					"CategoryID": "c0f88443-a1d5-462e-bbe7-c01b6d63cf38",
+					"Cost": 0,
+					"CraftingLocation": "None",
+					"CreationConditions": {
+						"Components": [],
+						"Operator": 0
+					},
+					"DisplayName": 40034304,
+					"Ingredients": [{
+							"IsDestroyed": "true",
+							"ItemID": "db230fa3-2483-478a-85cc-79e511dd3af5",
+							"Quantity": 1
+						}
+					],
+					"ItemModsToAddIDs": [],
+					"ItemModsToRemoveIDs": [],
+					"Output": [{
+							"ItemID": "db230fa3-2483-478a-85cc-79e511dd3af5",
+							"Quantity": 1
+						}
+					],
+					"VisibilityConditions": {
+						"Components": [],
+						"Operator": 0
+					},
+					"PrerequisiteItemModID": "00000000-0000-0000-0000-000000000000",
+					"CostByValueMultiplier": 0,
+					"Double2HIngredientCost": "false"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.RecipeData, Assembly-CSharp",
+			"DebugName": "Recipe_Repair_ScordeosTrophy",
+			"ID": "dcd65cfd-090b-4970-8c78-e0e0422d100c",
+			"Components": [{
+					"$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
+					"CanModifyArmor": "false",
+					"CanModifyShields": "false",
+					"CanModifySpecificItemsIDs": [],
+					"CanModifyWeapons": "false",
+					"CategoryID": "c0f88443-a1d5-462e-bbe7-c01b6d63cf38",
+					"Cost": 0,
+					"CraftingLocation": "None",
+					"CreationConditions": {
+						"Components": [],
+						"Operator": 0
+					},
+					"DisplayName": 40034305,
+					"Ingredients": [{
+							"IsDestroyed": "true",
+							"ItemID": "e45e2bce-9a27-483a-b4f6-4b176e0c4a81",
+							"Quantity": 1
+						}
+					],
+					"ItemModsToAddIDs": [],
+					"ItemModsToRemoveIDs": [],
+					"Output": [{
+							"ItemID": "e45e2bce-9a27-483a-b4f6-4b176e0c4a81",
+							"Quantity": 1
+						}
+					],
+					"VisibilityConditions": {
+						"Components": [],
+						"Operator": 0
+					},
+					"PrerequisiteItemModID": "00000000-0000-0000-0000-000000000000",
+					"CostByValueMultiplier": 0,
+					"Double2HIngredientCost": "false"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.RecipeData, Assembly-CSharp",
+			"DebugName": "Recipe_Repair_Thundercrack",
+			"ID": "1b95aae7-9eeb-43c2-9aa7-07ea64722495",
+			"Components": [{
+					"$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
+					"CanModifyArmor": "false",
+					"CanModifyShields": "false",
+					"CanModifySpecificItemsIDs": [],
+					"CanModifyWeapons": "false",
+					"CategoryID": "c0f88443-a1d5-462e-bbe7-c01b6d63cf38",
+					"Cost": 0,
+					"CraftingLocation": "None",
+					"CreationConditions": {
+						"Components": [],
+						"Operator": 0
+					},
+					"DisplayName": 40034306,
+					"Ingredients": [{
+							"IsDestroyed": "true",
+							"ItemID": "37b53d23-b2f5-4609-b9c2-7454abd454f0",
+							"Quantity": 1
+						}
+					],
+					"ItemModsToAddIDs": [],
+					"ItemModsToRemoveIDs": [],
+					"Output": [{
+							"ItemID": "37b53d23-b2f5-4609-b9c2-7454abd454f0",
+							"Quantity": 1
+						}
+					],
+					"VisibilityConditions": {
+						"Components": [],
+						"Operator": 0
+					},
+					"PrerequisiteItemModID": "00000000-0000-0000-0000-000000000000",
+					"CostByValueMultiplier": 0,
+					"Double2HIngredientCost": "false"
+				}
+			]
+		},	{
+			"$type": "Game.GameData.RecipeData, Assembly-CSharp",
+			"DebugName": "Recipe_Repair_EcceasBlaster",
+			"ID": "4889e714-23dc-4f01-aaaa-0bc734355cf3",
+			"Components": [{
+					"$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
+					"CanModifyArmor": "false",
+					"CanModifyShields": "false",
+					"CanModifySpecificItemsIDs": [],
+					"CanModifyWeapons": "false",
+					"CategoryID": "c0f88443-a1d5-462e-bbe7-c01b6d63cf38",
+					"Cost": 0,
+					"CraftingLocation": "None",
+					"CreationConditions": {
+						"Components": [],
+						"Operator": 0
+					},
+					"DisplayName": 40034304,
+					"Ingredients": [{
+							"IsDestroyed": "true",
+							"ItemID": "827bbe72-d95f-4c78-97e3-a0d9ad5fa442",
+							"Quantity": 1
+						}
+					],
+					"ItemModsToAddIDs": [],
+					"ItemModsToRemoveIDs": [],
+					"Output": [{
+							"ItemID": "827bbe72-d95f-4c78-97e3-a0d9ad5fa442",
+							"Quantity": 1
+						}
+					],
+					"VisibilityConditions": {
+						"Components": [],
+						"Operator": 0
+					},
+					"PrerequisiteItemModID": "00000000-0000-0000-0000-000000000000",
+					"CostByValueMultiplier": 0,
+					"Double2HIngredientCost": "false"
+				}
+			]
+		}
+    ]
+}

@@ -1,0 +1,1117 @@
+﻿{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_NoneOne",
+			"ID": "a8b972e2-359a-430a-9eab-a710b4c086ff",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "00000000-0000-0000-0000-000000000000",
+					"AbilityLevel": 1,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000587,
+					"DisplayName": 406000586,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/talents/ability_passive_utility.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": ["bb68a03d-507e-4799-9a4e-abe7377d1e56"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["ef1a7845-c777-414b-8d24-1caca28b3e88"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_NoneTwo",
+			"ID": "44e65e66-8cc2-4a16-bb64-6452c9c857ee",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "00000000-0000-0000-0000-000000000000",
+					"AbilityLevel": 1,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000587,
+					"DisplayName": 406000586,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/talents/ability_passive_utility.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": ["bb68a03d-507e-4799-9a4e-abe7377d1e56"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["ef1a7845-c777-414b-8d24-1caca28b3e88"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_NoneThree",
+			"ID": "1910cd2d-755e-4470-a8c4-3577319c5ad8",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "00000000-0000-0000-0000-000000000000",
+					"AbilityLevel": 1,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": 406000587,
+					"DisplayName": 406000586,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "false",
+					"Icon": "gui/icons/abilities/talents/ability_passive_utility.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": ["bb68a03d-507e-4799-9a4e-abe7377d1e56"],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["ef1a7845-c777-414b-8d24-1caca28b3e88"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.ClassProgressionTableGameData, Assembly-CSharp",
+			"DebugName": "PT_Proficiencies",
+			"ID": "a01f1324-4484-4548-a2b3-602a28dca631",
+			"Components": [{
+					"$type": "Game.GameData.ClassProgressionTableComponent, Assembly-CSharp",
+					"AbilityPointUnlocks": [],
+					"CategoryNames": []
+				}, {
+					"$type": "Game.GameData.BaseProgressionTableComponent, Assembly-CSharp",
+					"AbilityUnlocks": [
+                        {
+							"ActivationObject": "Self",
+							"AddAbilityID": "a89cc4e8-62aa-4835-b70a-89abe4516810",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "21b6ff8a-21e5-49af-813f-be586fc3f7cf",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "d75bd92f-b77d-4b48-903e-22ce0fde1d1d",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "d214667e-0eb3-43a1-a972-feeafdb6a0fe",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "0cf0974b-2f76-4924-bb23-bd58fd34df03",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "9239d1dc-6521-4a41-974d-c9a065d07986",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "da440737-d8d8-4613-b9d8-ff969898c2d7",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "7e1da260-1d5d-425c-9a10-71f1f7482b88",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "39a4d04a-bc30-4d88-bae9-5d7b026f6112",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "ad86a4e6-d0ec-4486-8443-fbf869dde9f1",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "e573cd0c-3999-44a4-8b23-c68ca32c32a6",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "0c606452-4630-4acb-bff2-df6bd8270bf4",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "defaf578-53b7-48bf-9292-16c62fa74c59",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "95fe0d61-105f-4d88-9592-14b51517cf0a",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "c2fb8b3b-8dd4-4f57-bf71-63b285bc8d12",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "276065a3-ad81-47f0-b6e9-41a326f8f6a3",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "0b63cb38-ef14-4504-b3dc-0e589c3db2f5",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "0ed6e0ae-afea-4e25-8fb1-b28c7c35c602",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "61039541-f6bb-408c-ae9c-9ae39a958878",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "b2ac11dc-55b3-4ce5-bf31-77d74b779aae",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "8feb7dae-7725-41dc-8984-fcdc4ec5d71c",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "ddadfd01-83e7-4716-8061-ae9bdc892993",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "2e992e9e-7bc5-454b-9e96-78e558b22e34",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "fdb7384e-48a0-4903-8746-5482d876a6d5",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "8a7403c8-a1a9-48c9-9482-207b74100a71",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "7bc9e9ca-4984-4c42-a2ad-9fc28d3f0fed",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "d374e404-1dd1-47ae-8934-7995b88a2dc5",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "109daa74-3db5-4a95-b924-4fc004ab2127",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "05b32957-2146-49bf-9963-62867184fddf",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "977ffd2e-63c6-497d-b817-b3b3d06b19fd",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "9e08e06a-a152-4779-af9b-b848f12dd118",
+							"Category": "Proficiency",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [],
+									"Operator": 0
+								}
+							},
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock"
+						},	
+						//no_proficiencies
+						{
+							"ActivationObject": "Self",
+							"AddAbilityID": "a8b972e2-359a-430a-9eab-a710b4c086ff",
+                            "Category": "Proficiency",
+							"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+							"UnlockStyle": "Unlock",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [
+										{
+											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+											"Data": {
+												"Flags": "",
+												"FullName": "Boolean ProgressionTableHasAbility(Guid)",
+												"FunctionHash": 0,
+												"ParameterHash": 0,
+												"Parameters": ["a8b972e2-359a-430a-9eab-a710b4c086ff"],
+												"UnrealCall": ""
+											},
+											"Not": true,
+											"Operator": 0
+										}
+									],
+									"Operator": 0
+								}
+							}
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "44e65e66-8cc2-4a16-bb64-6452c9c857ee",
+                            "Category": "Proficiency",
+							"RemoveAbilityID": "a8b972e2-359a-430a-9eab-a710b4c086ff",
+							"UnlockStyle": "Unlock",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [
+                                        {
+											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+											"Data": {
+												"Flags": "",
+												"FullName": "Boolean ProgressionTableHasAbility(Guid)",
+												"FunctionHash": 0,
+												"ParameterHash": 0,
+												"Parameters": ["a8b972e2-359a-430a-9eab-a710b4c086ff"],
+												"UnrealCall": ""
+											},
+											"Not": false,
+											"Operator": 0
+										},{
+											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+											"Data": {
+												"Flags": "",
+												"FullName": "Boolean ProgressionTableHasAbility(Guid)",
+												"FunctionHash": 0,
+												"ParameterHash": 0,
+												"Parameters": ["44e65e66-8cc2-4a16-bb64-6452c9c857ee"],
+												"UnrealCall": ""
+											},
+											"Not": true,
+											"Operator": 0
+										}
+                                    ],
+									"Operator": 0
+								}
+							}
+						}, {
+							"ActivationObject": "Self",
+							"AddAbilityID": "1910cd2d-755e-4470-a8c4-3577319c5ad8",
+                            "Category": "Proficiency",
+							"RemoveAbilityID": "44e65e66-8cc2-4a16-bb64-6452c9c857ee",
+							"UnlockStyle": "Unlock",
+							"Prerequisites": {
+								"Conditional": {
+									"Components": [],
+									"Operator": 0
+								},
+								"IsMutuallyExclusiveUpgrade": "true",
+								"MinimumCharacterLevel": 1,
+								"PowerLevelRequirement": {
+									"ClassID": "00000000-0000-0000-0000-000000000000",
+									"MinimumPowerLevel": 0
+								},
+								"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+								"VisibilityConditional": {
+									"Components": [
+                                        {
+											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+											"Data": {
+												"Flags": "",
+												"FullName": "Boolean ProgressionTableHasAbility(Guid)",
+												"FunctionHash": 0,
+												"ParameterHash": 0,
+												"Parameters": ["44e65e66-8cc2-4a16-bb64-6452c9c857ee"],
+												"UnrealCall": ""
+											},
+											"Not": false,
+											"Operator": 0
+										},{
+											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+											"Data": {
+												"Flags": "",
+												"FullName": "Boolean ProgressionTableHasAbility(Guid)",
+												"FunctionHash": 0,
+												"ParameterHash": 0,
+												"Parameters": ["1910cd2d-755e-4470-a8c4-3577319c5ad8"],
+												"UnrealCall": ""
+											},
+											"Not": true,
+											"Operator": 0
+										}
+                                    ],
+									"Operator": 0
+								}
+							}
+						}
+					],
+					"DecisionTreeSelectionType": "RandomOrder",
+					"DefaultCustomAI2ID": "00000000-0000-0000-0000-000000000000",
+					"DefaultCustomAIID": "00000000-0000-0000-0000-000000000000",
+					"DefaultDecisionTrees": []
+				}
+			]
+		}
+    ]
+}

@@ -1,0 +1,945 @@
+﻿{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.ModalGroupGameData, Assembly-CSharp",
+			"DebugName": "MG_Melee",
+			"ID": "bcecb3c9-5df4-4d57-9abe-7956849969f0",
+			"Components": [{
+					"$type": "Game.GameData.ModalGroupComponent, Assembly-CSharp",
+					"DisplayName": 406002455,	//needed
+					"MustBeActive": "false"
+				}
+			]
+		},	{
+            "$type": "Game.GameData.ModalGroupGameData, Assembly-CSharp",
+			"DebugName": "MG_Ranged",
+			"ID": "bd5bed82-5779-4b80-bb29-6822026e471e",
+			"Components": [{
+					"$type": "Game.GameData.ModalGroupComponent, Assembly-CSharp",
+					"DisplayName": 406002456,	//needed
+					"MustBeActive": "false"
+				}
+			]
+		},	{
+            "$type": "Game.GameData.ModalGroupGameData, Assembly-CSharp",
+			"DebugName": "MG_Secondary",
+			"ID": "d364206d-0a87-4549-94d4-cfea122ab106",
+			"Components": [{
+					"$type": "Game.GameData.ModalGroupComponent, Assembly-CSharp",
+					"DisplayName": 406002457,	//needed
+					"MustBeActive": "false"
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Unproficient_Weapon",
+			"ID": "8ac7958e-d541-42af-9fab-712549730a54",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						},
+						"Scripts": []
+					},
+					"AbilityClassID": "00000000-0000-0000-0000-000000000000",
+					"AbilityLevel": 1,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"AttackID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ClearsOnMovement": "false",
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"Description": -1,
+					"DisplayName": 406000549,
+					"DurationOverride": 0,
+					"GrantedViaScript": "false",
+					"HideFromCombatLog": "false",
+					"HideFromUI": "true",
+					"Icon": "gui/icons/abilities/talents/ability_passive_weapon.png",
+					"IsCombatOnly": "false",
+					"IsModal": "false",
+					"IsNonCombatOnly": "false",
+					"IsPassive": "true",
+					"KeywordsIDs": [],
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"OverrideEmpower": "Default",
+					"PowerLevelScaling": {
+						"AccuracyAdjustment": 0,
+						"BaseLevel": 0,
+						"BounceCountAdjustment": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"PenetrationAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"ScalingType": "Default"
+					},
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"StackingRuleOverride": "Default",
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["da9a4870-1c9c-4304-bb89-064ddf14b2ef"],
+					"TriggerOnHit": "false",
+					"UniqueSet": "None",
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"UsageType": "None",
+					"UsageValue": 0,
+					"VisualEffects": [],
+					"Vocalization": "NoVocalization"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "SE_Unproficiency_Accuracy",
+			"ID": "da9a4870-1c9c-4304-bb89-064ddf14b2ef",
+			"Components": [{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationType": "ApplyOnStart",
+					"AttackFilter": {
+						"AttackHostility": "Default",
+						"ChanceToApply": 1,
+						"ClassTypeID": "00000000-0000-0000-0000-000000000000",
+						"DefendedBy": "None",
+						"Disengagement": "false",
+						"Empowered": "false",
+						"IsKith": "false",
+						"KeywordLogic": "Or",
+						"KeywordsIDs": [],
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"Race": "None",
+						"Range": "None",
+						"Source": "NonproficientWeapon",
+						"Stealthed": "false",
+						"TargetType": "None",
+						"UseStealthLinger": "false"
+					},
+					"AttackHitType": "None",
+					"AttackOverrideValue": "None",
+					"AttackTargetFilter": {
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"HealthOperator": "EqualTo",
+						"HealthPercentage": 0,
+						"IsKith": "false",
+						"IsMarked": "false",
+						"KeywordLogic": "Or",
+						"KeywordsIDs": [],
+						"Race": "None",
+						"TargetHostility": "Default"
+					},
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BaseValue": -15,
+					"BedRestDaysMaximum": 0,
+					"BedRestDaysMinimum": 0,
+					"ClassValueID": "00000000-0000-0000-0000-000000000000",
+					"ClearOnCombatEnd": "false",
+					"ClearOnDeath": "false",
+					"ClearOnFoodRest": "false",
+					"ClearOnRest": "false",
+					"ClearWhenAttacks": "false",
+					"DamageTypeValue": "All",
+					"Duration": 0,
+					"DurationType": "Infinite",
+					"DynamicValue": {
+						"ClassID": "00000000-0000-0000-0000-000000000000",
+						"MultiplyBy": 1,
+						"Operator": "Add",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"Stat": "None"
+					},
+					"EventValue": "OnApply",
+					"ExtraValue": 0,
+					"HideFromCombatLog": "false",
+					"HideFromCombatTooltip": "true",
+					"HideFromUI": "false",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"IsHostile": "false",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+					"KeywordsIDs": [],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"MaxStackQuantity": 0,
+					"OverrideDescriptionString": -1,
+					"OverridePenetration": 0,
+					"PowerLevelScaling": {
+						"BaseLevel": 0,
+						"DurationAdjustment": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"UseCharacterLevel": "false",
+						"ValueAdjustment": 0
+					},
+					"RaceValue": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"StatusEffectType": "AllAccuracy",
+					"StatusEffectTypeValue": "None",
+					"StatusEffectsValueIDs": [],
+					"TriggerAdjustment": {
+						"ChanceToTrigger": 1,
+						"DurationAdjustment": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"MaxTriggerCount": 0,
+						"ParamValue": 0,
+						"RemoveEffectAtMax": "false",
+						"ResetTriggerOnEffectTimeout": "false",
+						"TriggerOffEvent": "None",
+						"TriggerOnEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ValueAdjustment": 0
+					},
+					"UseStatusEffectValueAs": "None",
+					"VisualEffects": [],
+					"WeaponTypeValue": "None"
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Arbalest_Overbearing_Shot",
+			"ID": "17aac4e5-0547-4a3c-a21b-e0d3fd2d86c9",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Arquebus_Aimed_Shot",
+			"ID": "2434e0d9-435c-45b1-b509-c5e90082c058",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Battle_Axe_Bleeding_Cut",
+			"ID": "153274a8-40ed-49df-a4d1-9bfc8a78ed2d",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Blunderbuss_Powder_Burns",
+			"ID": "f5a2eb61-8c11-41ab-9832-5ad182e5b368",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Club_Bewildering_Blows",
+			"ID": "11d2067c-4af7-45ad-ba02-eb098119a4c5",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Crossbow_Interrupting_Shot",
+			"ID": "449aa225-7e37-48cb-9261-e6c350296968",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Dagger_Parrying_Blade",
+			"ID": "8c37d2f5-2aa5-4906-a2b1-5bca96a0dce2",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Estoc_Vulnerable_Thrust",
+			"ID": "24e28fab-4999-40ed-9a83-3d45ae6c671c",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Flail_Unbalancing_Strikes",
+			"ID": "f5d40ec7-6dfb-414c-a12d-e2b1aecc80c8",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Greatsword_Savage_Attack",
+			"ID": "0b5fe616-3d6d-460d-a02d-28a1b4217796",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Hatchet_Interfering_Strikes",
+			"ID": "39edd54b-353a-4a76-bca6-8e0ff8e9c95a",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Hunting_Bow_Rapid_Shot",
+			"ID": "70f2228d-414d-4a29-a4e0-bd7b88afedb7",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Large_Shield_The_Wall",
+			"ID": "f2a32614-d8ce-4183-870f-96cc74d2c57a",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Mace_Rending_Smash",
+			"ID": "a30b2411-8e7b-4ae2-a2ed-91ed550021b6",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Medium_Shield_Block",
+			"ID": "99f28fcd-60cf-4009-9cef-0574312e7efe",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Morningstar_Body_Blows",
+			"ID": "854256bc-c96e-4d07-af01-5032239b9375",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Pike_Exposing_Strikes",
+			"ID": "0eebe6a0-df8d-41c5-bb40-932d6aa42d78",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Pistol_Rushed_Reload",
+			"ID": "edfd0b09-c2f9-489f-97d4-4e2a62fed1fe",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Pollaxe_Engaging_Threat",
+			"ID": "e09fa7d3-211b-4ab3-817c-a6dc31f9330d",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Quarterstaff_Defensive_Strike",
+			"ID": "2ba27883-a6d0-401d-b8f2-430a3a2873f4",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Rapier_Needle_Strike",
+			"ID": "b30f7b22-17e9-4532-ad60-6ec50f921555",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Rod_Blast",
+			"ID": "5dbf9077-261b-4f11-b022-deccb29b3d91",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Sabre_Windmill_Slash",
+			"ID": "c83913ec-391c-4779-9527-389dc5825e9f",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Stiletto_Piercing_Thrust",
+			"ID": "90308564-204e-49d1-b93a-8c7ec73667b0",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Sceptre_Destructive_Channeling",
+			"ID": "dddf5fe6-108c-4d96-a891-b0517354c695",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Small_Shield_Binding_Block",
+			"ID": "62f142c9-d40c-495b-836b-88a62603db52",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Spear_Engaging_Thrust",
+			"ID": "111aae3f-ba8f-4cf9-a766-58e7d1e8e8ac",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Sword_Half_Sword",
+			"ID": "e56c9809-5046-48a8-9334-491b053c79a7",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Wand_Interfering_Barrage",
+			"ID": "17cc1645-e0e1-4bf2-802a-3894665c5b61",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "War_Bow_Overdraw",
+			"ID": "85ab8ebb-9085-4cf3-847a-45cd09f9e274",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Warhammer_Piercing_Blows",
+			"ID": "f326f97e-6d5d-4a74-b037-46bda85cce79",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"HideFromCombatLog": "true",
+					"HideFromUI": "true",
+					"IsModal": "false",
+					"IsPassive": "true",
+					"StatusEffectsIDs": []
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Arbalest",
+			"ID": "a89cc4e8-62aa-4835-b70a-89abe4516810",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2456 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Arquebus",
+			"ID": "21b6ff8a-21e5-49af-813f-be586fc3f7cf",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2519 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_BattleAxe",
+			"ID": "d75bd92f-b77d-4b48-903e-22ce0fde1d1d",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2499 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Blunderbuss",
+			"ID": "d214667e-0eb3-43a1-a972-feeafdb6a0fe",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2647 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Club",
+			"ID": "0cf0974b-2f76-4924-bb23-bd58fd34df03",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2582 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Crossbow",
+			"ID": "9239d1dc-6521-4a41-974d-c9a065d07986",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2529 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Dagger",
+			"ID": "da440737-d8d8-4613-b9d8-ff969898c2d7",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2584 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Estoc",
+			"ID": "7e1da260-1d5d-425c-9a10-71f1f7482b88",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2590 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Flail",
+			"ID": "39a4d04a-bc30-4d88-bae9-5d7b026f6112",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2588 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_GreatSword",
+			"ID": "ad86a4e6-d0ec-4486-8443-fbf869dde9f1",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2501 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Hatchet",
+			"ID": "e573cd0c-3999-44a4-8b23-c68ca32c32a6",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2503 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_HuntingBow",
+			"ID": "0c606452-4630-4acb-bff2-df6bd8270bf4",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2521 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_LargeShield",
+			"ID": "9e08e06a-a152-4779-af9b-b848f12dd118",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2730 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Mace",
+			"ID": "defaf578-53b7-48bf-9292-16c62fa74c59",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2531 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_MediumShield",
+			"ID": "977ffd2e-63c6-497d-b817-b3b3d06b19fd",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2538 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_MorningStar",
+			"ID": "95fe0d61-105f-4d88-9592-14b51517cf0a",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2596 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Pike",
+			"ID": "c2fb8b3b-8dd4-4f57-bf71-63b285bc8d12",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2598 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Pistol",
+			"ID": "276065a3-ad81-47f0-b6e9-41a326f8f6a3",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2755 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Pollaxe",
+			"ID": "0b63cb38-ef14-4504-b3dc-0e589c3db2f5",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2600 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Quarterstaff",
+			"ID": "0ed6e0ae-afea-4e25-8fb1-b28c7c35c602",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2602 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Rapier",
+			"ID": "61039541-f6bb-408c-ae9c-9ae39a958878",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 3803 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Rod",
+			"ID": "b2ac11dc-55b3-4ce5-bf31-77d74b779aae",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2606 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Sabre",
+			"ID": "8feb7dae-7725-41dc-8984-fcdc4ec5d71c",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2534 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Sceptre",
+			"ID": "2e992e9e-7bc5-454b-9e96-78e558b22e34",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2532 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_SmallShield",
+			"ID": "05b32957-2146-49bf-9963-62867184fddf",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2530 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Spear",
+			"ID": "fdb7384e-48a0-4903-8746-5482d876a6d5",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2604 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Stiletto",
+			"ID": "ddadfd01-83e7-4716-8061-ae9bdc892993",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2592 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Sword",
+			"ID": "8a7403c8-a1a9-48c9-9482-207b74100a71",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 1041 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_Wand",
+			"ID": "7bc9e9ca-4984-4c42-a2ad-9fc28d3f0fed",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2586 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_WarBow",
+			"ID": "d374e404-1dd1-47ae-8934-7995b88a2dc5",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2523 }]
+				}
+			]
+		},	{
+            "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "WeaponProficiency_WarHammer",
+			"ID": "109daa74-3db5-4a95-b924-4fc004ab2127",   //vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 406000580,
+					"UpgradeDescriptions": [{ "String": 2594 }]
+				}
+			]
+		}
+    ]
+}

@@ -1,0 +1,165 @@
+﻿{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+			"DebugName": "Pistol_Exceptional",
+			"ID": "8ed3928c-0924-4511-a918-468c05c37f7b",//vanillaguid
+			"Components": [{
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"ItemModsIDs": ["9f94abde-22f9-4991-bcb1-c5ab0ebb5111", "9dca49ce-06e1-443f-9011-5e2d321a0c01", "b420d957-6932-4b02-8e02-1393b07f390d", "34f310f7-65eb-41d5-943a-1d27d3983060"]
+				}
+			]
+		},  {
+            "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+			"DebugName": "Mod_ApplyKeyword_Exceptional_Pistol",
+			"ID": "34f310f7-65eb-41d5-943a-1d27d3983060",
+			"Components": [{
+					"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+					"AbilitiesOnEquipIDs": [],
+					"AbilityModsOnEquipIDs": [],
+					"Cost": 16,
+					"CursesItem": "false",
+					"DamageProcs": [],
+					"DisplayName": 21138,
+					"DurabilityDamage": 0,
+					"EnchantCategory": "Unique",
+					"HideFromUI": "false",
+					"OnEquipVisualEffects": [],
+					"StatusEffectsOnAttackIDs": [],
+					"StatusEffectsOnEquipIDs": ["932e34b5-2359-4c53-b200-44fe12aea42d"],
+					"StatusEffectsOnLaunchIDs": []
+				}
+			]
+		},  {
+            "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "SE_ApplyKeyword_Exceptional_Pistol",
+			"ID": "932e34b5-2359-4c53-b200-44fe12aea42d",
+			"Components": [{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+					"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Components": [],
+							"Operator": 0
+						}
+					},
+					"ApplicationType": "ApplyOnStart",
+					"AttackFilter": {
+						"AttackHostility": "Default",
+						"ChanceToApply": 1,
+						"ClassTypeID": "00000000-0000-0000-0000-000000000000",
+						"DefendedBy": "None",
+						"Disengagement": "false",
+						"Empowered": "false",
+						"IsKith": "false",
+						"KeywordLogic": "Or",
+						"KeywordsIDs": [],
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"Race": "None",
+						"Range": "None",
+						"Source": "None",
+						"Stealthed": "false",
+						"TargetType": "None",
+						"UseStealthLinger": "false"
+					},
+					"AttackHitType": "None",
+					"AttackOverrideValue": "None",
+					"AttackTargetFilter": {
+						"Distance": 0,
+						"DistanceOperator": "EqualTo",
+						"HasDOT": "false",
+						"HealthOperator": "EqualTo",
+						"HealthPercentage": 0,
+						"IsKith": "false",
+						"IsMarked": "false",
+						"KeywordLogic": "Or",
+						"KeywordsIDs": [],
+						"Race": "None",
+						"TargetHostility": "Default"
+					},
+					"AttackValueID": "00000000-0000-0000-0000-000000000000",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+					"BaseValue": 0,
+					"BedRestDaysMaximum": 0,
+					"BedRestDaysMinimum": 0,
+					"ClassValueID": "00000000-0000-0000-0000-000000000000",
+					"ClearOnCombatEnd": "false",
+					"ClearOnDeath": "false",
+					"ClearOnFoodRest": "false",
+					"ClearOnRest": "false",
+					"ClearWhenAttacks": "false",
+					"DamageTypeValue": "All",
+					"Duration": 0,
+					"DurationType": "Infinite",
+					"DynamicValue": {
+						"ClassID": "00000000-0000-0000-0000-000000000000",
+						"MultiplyBy": 1,
+						"Operator": "Add",
+						"SkillDataID": "00000000-0000-0000-0000-000000000000",
+						"Stat": "None"
+					},
+					"EventValue": "OnApply",
+					"ExtraValue": 0,
+					"HideFromCombatLog": "true",
+					"HideFromCombatTooltip": "true",
+					"HideFromUI": "true",
+					"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+					"IsHostile": "false",
+					"ItemValueID": "00000000-0000-0000-0000-000000000000",
+					"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+					"KeywordsIDs": ["b4bebcf2-5625-4bee-844f-f88dfc9f1e12"],
+					"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"MaxStackQuantity": 0,
+					"OverrideDescriptionString": -1,
+					"OverridePenetration": 0,
+					"PowerLevelScaling": {
+						"BaseLevel": 0,
+						"DurationAdjustment": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"UseCharacterLevel": "false",
+						"ValueAdjustment": 0
+					},
+					"RaceValue": "None",
+					"SkillValueID": "00000000-0000-0000-0000-000000000000",
+					"StackedChildrenApplyEffects": "false",
+					"StatusEffectType": "None",
+					"StatusEffectTypeValue": "None",
+					"StatusEffectsValueIDs": [],
+					"TriggerAdjustment": {
+						"ChanceToTrigger": 1,
+						"DurationAdjustment": 0,
+						"IgnoreMaxTriggerCount": "false",
+						"MaxTriggerCount": 0,
+						"ParamValue": 0,
+						"RemoveEffectAtMax": "false",
+						"ResetTriggerOnEffectTimeout": "false",
+						"TriggerOffEvent": "None",
+						"TriggerOnEvent": "None",
+						"ValidateWithAttackFilter": "false",
+						"ValueAdjustment": 0
+					},
+					"UseStatusEffectValueAs": "None",
+					"VisualEffects": [],
+					"WeaponTypeValue": "None"
+				}
+			]
+		},  {
+            "$type": "Game.GameData.KeywordGameData, Assembly-CSharp",
+			"DebugName": "Keyword_Exceptional_Pistol",
+			"ID": "b4bebcf2-5625-4bee-844f-f88dfc9f1e12",
+			"Components": [{
+					"$type": "Game.GameData.KeywordComponent, Assembly-CSharp",
+					"AbilitiesDisplayString": -1,
+					"Description": -1,
+					"GuiDisplayString": -1,
+					"Icon": "",
+					"OverridePluralEffect": -1,
+					"TintableIcon": ""
+				}
+			]
+		}
+    ]
+}
