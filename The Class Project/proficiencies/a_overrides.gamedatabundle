@@ -53,7 +53,21 @@
 					},
 					"ApplicationPrerequisites": {
 						"Conditional": {
-							"Components": [],
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"Flags": "",
+										"FullName": "Boolean HasStatusEffectType(Guid, StatusEffectType)",
+										"FunctionHash": 998426332,
+										"ParameterHash": 413157789,
+										"Parameters": ["7d150000-0000-0000-0000-000000000000", "ChangeForm"],
+										"UnrealCall": ""
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							],
 							"Operator": 0
 						}
 					},
